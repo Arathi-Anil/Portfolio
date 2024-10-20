@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="box">
+        <div class="intro">
+            <!-- Added small photo -->
+            <img src="E:\DOC\imresizer-1723400934822.jpg" alt="Your Photo" class="profile-photo">
+            <h1>Hello, I'm ARATHI ANIL</h1>
+            <p>Creative Developing | AI Enthusiast | Full Stack Web Developing </p>
+            <p>Welcome to my personal portfolio showcasing my projects, skills, and passion for technology.</p>
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="box">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate developer with interest in AI, machine learning, and full-stack web development. Currently pursuing my MCA, I have a strong foundation in mathematics and programming, coupled with a love for problem-solving and creativity.</p>
+            <div class="skills">
+                <h3>Skills:</h3>
+                <ul>
+                    <li>Python, C programming</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>AI, Machine Learning, Python</li>
+                    <li>Full-Stack Web Development</li>
+                    <li>Cybersecurity, Java</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="box">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Federated Learning Project</h3>
+                <p>Data poisoning attacks in federated learning.</p>
+                
+            </div>
+            <div class="project-card">
+                <h3>Sustainable Energy Website</h3>
+                <p>A website promoting sustainable energy with chatbot integration.</p>
+                
+            </div>
+            <div class="project-card">
+                <h3>Cancer Prediction Model</h3>
+                <p>Machine learning model for cancer prediction.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="box">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="thank-you-message" style="display:none;">
+            <p>Thank you for your message!</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
